@@ -2,8 +2,6 @@ const galleryArray=['cars1.jpg','cars2.jpg','cars3.jpg','cars4.jpg','cars5.jpg',
 
 const carGallery = document.getElementById('carGallery');
 
-
-
 // GALLERY DIV CREATION 
 let createGalleryDiv = document.createElement('div') ;
 createGalleryDiv.setAttribute('id','galleryDiv')
@@ -34,7 +32,6 @@ for(let i = 1;i < galleryArray.length; i++){
     createTileImg.src = 'assets/img/' + galleryArray[i]
     createTileImg.onclick = imageSwitcher
     tileDiv.appendChild(createTileImg)
-
 
 }
 
