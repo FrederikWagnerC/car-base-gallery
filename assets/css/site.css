@@ -30,3 +30,9 @@ img {
 .tileImg:hover {
     border: 2px solid white;
 }
+
+@media (max-width: 1000px) {
+    #galleryDiv {
+        grid-template-columns: repeat(1, 1fr);
+    }
+}
