@@ -1,1 +1,32 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+img {
+    width: 100%;
+    aspect-ratio: 1/1;
+    object-fit: cover;
+}
+
+#galleryDiv {
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+}
+
+#tileDiv {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+
+.tileImg {
+    transition: 0.2s;
+    cursor: pointer;
+    box-sizing: border-box;
+}
+
+.tileImg:hover {
+    border: 2px solid white;
+}
